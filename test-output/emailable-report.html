@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">PurnaData Automation Suite</th></tr>
+<tr><td><a href="#t0">PurnaData Tests</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">107,833</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PurnaData Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PurnaData Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.purnadata.qa.testcases.MenuModule</td><td><a href="#m0">verifyToCreateNewSuppier</a></td><td rowspan="1">1672496377882</td><td rowspan="1">10073</td></tr><tr class="failedeven"><td><a href="#m1">veriyAddNewItomInventory</a></td><td rowspan="1">1672496395045</td><td rowspan="1">10030</td></tr><tr><th colspan="4">PurnaData Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.purnadata.qa.testcases.Login</td><td><a href="#m2">verifyLoginWithInvalidCredentials</a></td><td rowspan="1">1672496341932</td><td rowspan="1">618</td></tr><tr class="passedeven"><td><a href="#m3">verifyLoginWithInvalidUsernameAndValidPassword</a></td><td rowspan="1">1672496345350</td><td rowspan="1">705</td></tr><tr class="passedeven"><td><a href="#m4">verifyLoginWithValidCredentials</a></td><td rowspan="3">1672496327786</td><td rowspan="3">3242</td></tr><tr class="passedeven"><td><a href="#m5">verifyLoginWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m6">verifyLoginWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m7">verifyLoginWithValidUsernameAndInvalidPassword</a></td><td rowspan="1">1672496348737</td><td rowspan="1">1267</td></tr><tr class="passedeven"><td><a href="#m8">verifyLoginWithoutProvidingAnything</a></td><td rowspan="1">1672496352971</td><td rowspan="1">420</td></tr><tr class="passedodd"><td rowspan="2">com.purnadata.qa.testcases.MenuModule</td><td><a href="#m9">verifyMenuButtonContainsFiveModule</a></td><td rowspan="1">1672496358532</td><td rowspan="1">2160</td></tr><tr class="passedodd"><td><a href="#m10">verifyToCreateNewCustomer</a></td><td rowspan="1">1672496367097</td><td rowspan="1">4437</td></tr><tr class="passedeven"><td rowspan="2">com.purnadata.qa.testcases.SalesModule</td><td><a href="#m11">verifySalesInvoiceNevigateToDetailsPage</a></td><td rowspan="1">1672496416508</td><td rowspan="1">2916</td></tr><tr class="passedeven"><td><a href="#m12">verifySalesModuleDisplayFourModule</a></td><td rowspan="1">1672496410787</td><td rowspan="1">2599</td></tr></tbody>
+</table>
+<h2>PurnaData Tests</h2><h3 id="m0">com.purnadata.qa.testcases.MenuModule#verifyToCreateNewSuppier</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#username&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a077a06ec10aeb66d043c4800e26361, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62389/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a077a06ec10aeb66d043c4800e26361
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.purnadata.qa.testcases.MenuModule.verifyToCreateNewSuppier(MenuModule.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.purnadata.qa.testcases.MenuModule#veriyAddNewItomInventory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#username&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9936324c228364d3a954278e9daaf778, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62431/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9936324c228364d3a954278e9daaf778
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.purnadata.qa.testcases.MenuModule.veriyAddNewItomInventory(MenuModule.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.purnadata.qa.testcases.Login#verifyLoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.purnadata.qa.testcases.Login#verifyLoginWithInvalidUsernameAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.purnadata.qa.testcases.Login#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.purnadata.qa.testcases.Login#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.purnadata.qa.testcases.Login#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.purnadata.qa.testcases.Login#verifyLoginWithValidUsernameAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.purnadata.qa.testcases.Login#verifyLoginWithoutProvidingAnything</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.purnadata.qa.testcases.MenuModule#verifyMenuButtonContainsFiveModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.purnadata.qa.testcases.MenuModule#verifyToCreateNewCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.purnadata.qa.testcases.SalesModule#verifySalesInvoiceNevigateToDetailsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.purnadata.qa.testcases.SalesModule#verifySalesModuleDisplayFourModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
